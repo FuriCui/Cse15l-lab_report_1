@@ -3,7 +3,7 @@
 ![image](vscode.png)
 
 This is a photoshot of vscode that is downloaded. I searched online "vscode" and clicked the first link that showed up and downloaded a mac version from web since I have a mac laptop.
-[title](https://code.visualstudio.com/)
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ## 2. Remotely Connecting
 
