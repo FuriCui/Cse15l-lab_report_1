@@ -6,13 +6,13 @@
 This is the screenshot of the code of the StringServer. By creating a new web server, I started by writing that if the path equals to `/add-message`, it will search for `"s"`. If it exists, it return the value of the parameters as strings as users type after `"="`. otherwise, it will show `404 Not Found!` . The Web Server class is like the numberserver in lab2, it allows we to create a new webserver by typing the port after the class name in command line.
 
 
-![image](First).png)
+![image](First.png)
 
 
 In the first example, I typed `"This is Furi"` after `"/add-message?s="`. This calls the method `handleRequest` in StringServer class. In this Method, it first looks if there exist a path `/add-message`. Then it seaarches for the string `"s"`. If they exist, the web server will return the argument we type after the `"="` as in this time: `"This is Furi"`. The value of the `String` str is changed by adding this argument, which leads to the next example.
 
 
-![image](Second).png)
+![image](Second.png)
 
 
 In the second example, it is quite familiar that `"This is Furi"` showed up again. This is because the value of the `str` is stored. By using `\n` in the method `handleRequest` of StringServer class, we change the line for the new string value `"This is also Furi"` in str. We called the method `handleRequest` again by only changing the argument part of the url, which adds one more value to str in StringServer class, which becomes `"This is Furi \n This is also Furi"`.
