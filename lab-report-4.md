@@ -69,7 +69,8 @@ First: Type: `git init` to initialize the git repository.
 Second: Type: `git branch -m main` to create my main branch. Then press `<enter>`, Type: `git add ListExamples.java` to add the changed file to github. Then pressing `<enter>`, Type: `git commit -m "new ListExamples"` to commit the changes to the repository I have right now.
 ![image](8.3.png)
 
-Thir: Type: `git push` to push everything into my repository.
+Third: Type: `git push` to push everything into my repository.
+
 ![image](8.4.png)
 
 Fourth: As we can see now, it is pushed to the my own repository
